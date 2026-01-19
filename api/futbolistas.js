@@ -7,7 +7,7 @@ export default function handler(req, resp){
     //Configurar las cabeceras con JSON
     resp.setHeader('Content-Type', 'application/json')
 
-    //método GET
+    //método GET y comentario para que haga deploy
     if(req.method === "GET"){
         return resp.status(200).json(futbolistas    )
     }
