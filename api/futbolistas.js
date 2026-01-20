@@ -1,5 +1,5 @@
 let futbolistas = [
-    {id:1, "nombre":"messi"},
+    {id:1, "nombre":"Messi"},
     {id:2, "nombre":"ronaldo nazario"}
 ]
 
